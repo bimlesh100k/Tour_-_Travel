@@ -1,0 +1,241 @@
+@media (min-width: 1281px) {
+    .aeroplane{
+        font-family: 'Plus Jakarta Sans', sans-serif; 
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .aeroplane h5 {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        color: #4475F2;
+       background-color: #E5EDFF;
+       width:fit-content;
+       padding: 5px 10px;
+       border-radius: 30px;
+    }
+    .aeroplane h1{
+        font-family: 'Plus Jakarta Sans' sans-serif;
+        font-size: 76px;
+        line-height: 86px;
+        letter-spacing: -4px;
+        font-weight:bolder;
+        color: #000b28;
+    }
+    .aeroplane h1 span{
+        color: #4475F2;
+    }
+    .aeroplane p{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .aeroplane button{
+        width: 198px;
+    height: 60px;
+    border: none;
+    font-family: Plus Jakarta Sans,serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background: #4475F2;
+    box-shadow: 0px 20px 35px rgba(68, 117, 242, 0.21);
+    border-radius: 10px;
+    }
+    #play-button{
+       background: transparent;
+       margin-left: 5px;
+       color: #9A9EA6;
+       position: relative;
+       top: 0;
+        
+    }
+    .aeroplane button i{
+       
+    position: relative;
+    font-size: 25px;
+    top: 4px;
+    padding: 0px 4px;
+       
+    }
+     
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+ 
+    .search{  
+    width: 20em;
+    height: 40px;
+    }
+    .nav-icon2, .nav-icon3 {
+        padding: 10px 12px;
+    }
+    .aeroplane h1{
+        font-family: 'Plus Jakarta Sans' sans-serif;
+        font-size: 56px;
+        line-height: 86px;
+        letter-spacing: -4px;
+        font-weight:bolder;
+        color: #000b28;
+    }
+    
+    
+} 
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+    .search{  
+        width: 18em;
+        height: 30px;
+        }
+        .nav-icon2, .nav-icon3 {
+            padding: 10px 12px;
+        }
+        .nav-icon2, .nav-icon3 {
+            padding: 11px 12px;
+            font-size: 18px;
+        }
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+   
+    .aeroplane h1{
+        font-size: 4rem;
+    }
+    .b-heading{
+        font-size: 25px;
+    }
+    .t-heading{
+        font-size: 38px;
+        font-weight: bold;
+    }
+    
+    .tample img{
+      
+        height: 200px;
+        width: 100%;
+  
+    
+    }
+    .icon-box i{
+        font-size: 19px;
+      
+        margin: 0px 10px;
+    }
+   
+    .flag{
+      
+        width: 200px;
+    }
+    .flag p{
+       
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    }
+    .flag img{
+        width:60px;
+        height: 60px;
+    }
+    .flag h4{
+     
+    font-size: 14px;    
+    }
+.map-inner-box h4{
+    font-size: 16px;
+
+}
+.map-inner-box i{
+    font-size: 14px;
+    padding: 7px;
+    margin: 0px 10px 0px 0px;
+}
+.map-inner-box p{
+    font-size: 14px;
+}
+
+}
+@media (min-width: 768px) and (max-width: 972px) {
+    .nav-box{
+        background-color: #a29af4;
+    }
+    .aeroplane h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .aeroplane button{
+        width: 145px;
+        font-size: 14px;
+    }
+    .aeroplane button i{
+        display: inline-block;
+        font-size: 16px;
+       position: relative;
+       top:0
+    }
+    
+}
+@media (min-width: 320px) and (max-width: 768px) {
+   
+    .b-heading{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .s-heading{
+        font-size: 10px;
+    }
+    .t-heading{
+        font-size: 40px;
+        margin-bottom: 20px;
+        line-height: 50px;
+    }
+    .tample-left{
+        margin-bottom: 130px;
+    }
+    .map-info h3{
+        font-size: 30px;
+    }
+    .map-info p{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .map-box{
+flex-wrap: wrap;
+align-items: center;
+    }
+   
+    
+    .map-inner-box i{
+        margin: 0px 10px;}
+        .tample{
+            width: 300px;
+            box-shadow: 50px -30px 50px 0px rgba(42, 95, 255, 0.349);
+
+           
+        }
+        .tample img{
+            width: 100%;
+        }
+        .flag{
+            width: 200px;
+            left: 200px;
+            display: none;
+            
+        }
+        .flag img{
+            width: 70px;
+            height: 70px;
+        }
+        .flag-info h4{
+            font-size: 14px;
+        }
+        .flag-info p{
+            font-size: 12px
+        }
+        #play-button{
+            margin: 20px 0px;
+        }
+}
